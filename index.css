@@ -1,0 +1,160 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  background-color: #45171d;
+}
+
+.content{
+  margin-left: 5%;
+  margin-right: 3%;
+}
+
+header {
+  margin-top: 10rem;
+  padding: 12% 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nav-links{
+    justify-content: space-between;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+  font-size: 2rem;
+  color:#fecea8;
+  text-align: left;
+  line-height: 1.5;
+  margin: 0%;
+}
+
+main{
+  background-color: #45171d;
+}
+
+section{
+  margin-bottom: 8rem;
+  padding: 4%;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 6%;
+}
+
+a{
+  color: #f03861;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+li{
+  list-style: none;
+  display: inline;
+}
+
+.error-content {
+    border: 0.1em solid #f03861;
+    font-size: 1em;
+    display:inline-block;
+    font-family: 'PT Serif', serif;
+    padding: 0.313em 0.500em 0.313em 0.500em;
+    margin: 0.5em;
+}
+
+h1 {
+  color: #f03861;
+  margin-top: 6rem;
+}
+
+h2, h3, h4 {
+  color: #f03861;
+  text-align: center;
+}
+
+.logo{
+    border-radius: 70%;
+    width: 5rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.event-owner{
+    height: 5rem;
+    margin-right: 1rem;
+}
+
+header {
+  margin-top: 2%;
+  padding: 2% 0;
+  text-align: center;
+  font-family:'Poppins', sans-serif;
+}
+
+.js-add-event  {
+    border: 0.07em solid  #ff847c;
+    font-size: 1.125em;
+    background-color: #ff847c;
+}
+
+.js-add-event-button, .js-remove-event-button {
+    border: 0.07em solid  #ff847c;
+    font-size: 0.7em;
+    background-color: #ff847c;
+    display: flex;
+    flex-direction: row;
+}
+
+.event-container{
+    background-color: #fecea8;
+    color: #45171d;
+}
+
+.event-box{
+    display: flex;
+    flex-direction: row;
+}
+
+#cancel-error{
+    border: 0.05em solid #f03861;
+    font-size: 0.7em;
+}
+
+@media screen and (min-width: 768px){
+  .body{
+    width: 40%;
+    height: 40%
+  } 
+  .description-box{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .description-text{
+    display: block;
+    margin-right: 2rem;
+  }
+} 
+
+@media screen and (min-width: 1000px){
+  .body{
+    width: 25%;
+    height: 25%
+  } 
+} 
+
+@media screen and (min-width: 1100px){
+  .body{
+    width: 10%;
+    height: 10%;
+  } 
+} 
+  
