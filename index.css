@@ -106,12 +106,12 @@ header {
     background-color: #ff847c;
 }
 
-.js-add-event-button, .js-remove-event-button {
+button{
     border: 0.07em solid  #ff847c;
     font-size: 0.7em;
     background-color: #ff847c;
-    display: flex;
-    flex-direction: row;
+    clear:left;
+    float:right;
 }
 
 .event-container{

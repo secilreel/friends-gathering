@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Meerkats App</title>
+</head>
+<body>
+    <nav role="navigation" class="nav-links">
+        <a href="login.html" class="navigation-items">
+            <img src="resources/headshot.png" class="account logo" alt="image of the accountholder">
+        </a>
+    </nav>
+    <main role="main">
+        <div class="error-container">
+        </div>
+            <section class="event-container">
+                <h2>New Event</h2>
+                <form>
+                    <div class="eventName">
+                        <label for="eventName">Event Name</label>
+                        <input placeholder="New Event" required>
+                    </div>
+                    <div class="description">
+                        <label for="description">Description</label>
+                        <input type="text">
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                <div class="close-new-event">
+                    <button type="button" class="js-close-new-event-button">Close</button>
+                </div>        
+            </section>
+    </main>
