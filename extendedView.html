@@ -19,28 +19,25 @@
         <div class="error container" hidden>
         </div>
             <section class="event container">
-                <h2>New Event</h2>
-                <form>
-                    <div class="eventName">
-                        <label for="eventName">Event Name</label>
-                        <input placeholder="New Event" required>
-                    </div>
-                    <div class="eventDescription">
-                        <label for="description">Description</label>
-                        <input type="text">
-                    </div>
-                    <div class="attendees">
-                        <select multiple class="invited-friends">
+                <h2>Event 2</h2>
+                <div class="event-box">
+                        <img src="resources/account.jpg" class="event-owner logo" alt="image of the event planner's account">
+                        <div class="event-details">
+                            <label for="eventDescription">Event Description:</label>
+                            <p>Let's eat pho tonight</p>
+                            <label for="eventVenue">Venue:</label>
+                            <p>Pho Basil</p>
+                            <div class="attendees">
+                                <label for="attendees">Attending:</label>
                                 <option>Friend 1</option>
                                 <option>Friend 2</option>
                                 <option>Friend 3</option>
                                 <option>Friend 4</option>
-                        </select>
+                            </div>
+                        </div>
                     </div>
-                    <button type="submit">Login</button>
-                </form>
-                <div class="close-new-event">
-                    <button type="button" class="js-close-new-event-button">Close</button>
-                </div>        
+                    <div class="remove-event">
+                        <button type="button" class="js-remove-event-button">Remove Event</button>
+                    </div>        
             </section>
     </main>

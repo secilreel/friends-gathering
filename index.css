@@ -88,6 +88,15 @@ h2, h3, h4 {
     margin-top: 2rem;
 }
 
+.site{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo{
+  height: 5rem;
+}
+
 .event-owner{
     height: 5rem;
     margin-right: 1rem;
@@ -98,6 +107,10 @@ header {
   padding: 2% 0;
   text-align: center;
   font-family:'Poppins', sans-serif;
+}
+
+label{
+  font-family:'Open Sans', sans-serif;
 }
 
 .js-add-event  {
@@ -114,9 +127,13 @@ button{
     float:right;
 }
 
-.event-container{
+.container, .loginPage {
     background-color: #fecea8;
     color: #45171d;
+}
+
+.description{
+  padding: 2%;
 }
 
 .event-box{
@@ -145,16 +162,18 @@ button{
 } 
 
 @media screen and (min-width: 1000px){
-  .body{
-    width: 25%;
-    height: 25%
+  body{
+    width: 60%;
+    height: 60%;
+    margin: auto;
   } 
 } 
 
 @media screen and (min-width: 1100px){
-  .body{
-    width: 10%;
-    height: 10%;
+  body{
+    width: 70%;
+    height: 70%;
+    margin: auto;
   } 
 } 
   

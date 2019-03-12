@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <title>Meerkats App</title>
 </head>
 <body>
@@ -16,18 +17,21 @@
         </a>
     </nav>
     <main role="main">
-    <header role="banner">
-        <h1>Meerkats</h1>
+    <header role="banner" class="banner">
+        <div class="site">
+            <img src="resources/logo.jpg" class="site logo" alt="logo of the site with meerkats huddled up">
+            <h1>Meerkats</h1>
+        </div>
         <p>Huddle up with friends!</p>
     </header>
     <div class="events">
         <div class="add-event">
             <button type="button" class="js-add-event-button">Add Event</button>
         </div>
-        <div class="error-container">
+        <div class="error container" hidden>
         </div>
         <div class="events-list">
-            <section class="event-container">
+            <section class="event container">
                 <h2>Event 1</h2>
                 <div class="event-box">
                     <img src="resources/account.jpg" class="event-owner logo" alt="image of the event planner's account">
@@ -40,7 +44,7 @@
                     <button type="button" class="js-remove-event-button">Remove Event</button>
                 </div>        
             </section>
-            <section class="event-container">
+            <section class="event container">
                     <h2>Event 2</h2>
                     <div class="event-box">
                         <img src="resources/headshot.png" class="event-owner logo" alt="image of event planner's account">
