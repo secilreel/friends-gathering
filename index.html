@@ -17,19 +17,26 @@
         </a>
     </nav>
     <main role="main">
+    <div class="content">
     <header role="banner" class="banner">
-        <div class="site">
-            <img src="resources/logo.jpg" class="site logo" alt="logo of the site with meerkats huddled up">
-            <a href="info.html" class="navigation-items"><h1>Meerkats</h1></a>
-        </div>
-        <p>Huddle up with friends!</p>
+        <section id="site">
+            <div id="siteLogo" >
+                <a href="info.html" class="navigation-items">
+                    <img src="resources/logo.jpg" class="logo" alt="logo of the site with meerkats huddled up">
+                </a>
+            </div>
+            <div id="siteTitle" >
+            <h1>Meerkats</h1>
+            </div>
+        </section>
+        <p id="tagline">Huddle up with friends!</p>
     </header>
     <div class="events">
-        <div class="add-event">
+        <section class="add-event">
             <a href="newEvent.html" class="navigation-items">
                 <button type="button" class="js-add-event-button">Add Event</button>
             </a>
-        </div>
+        </section>
         <div class="error container" hidden>
         </div>
         <div class="events-list">
@@ -60,6 +67,7 @@
                 </div>        
             </section>
         </div>
+    </div>
     </main>
 </body>
 </html>
