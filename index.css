@@ -74,6 +74,9 @@ li{
 h1 {
   color: #f03861;
   margin-top: 6rem;
+  margin-right: 1rem;
+  margin: auto;
+  font-size: 4rem;
 }
 
 h2, h3, h4 {
